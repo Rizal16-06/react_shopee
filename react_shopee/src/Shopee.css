@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+.navbar{
+    height: 60px;
+    background-color: #ff5227;
+    display: flex;
+    justify-content: center;
+}
+.c_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    display: flex;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.pencarian{
+    width: 45%;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.pencarian .cari{
+    position: absolute;
+    justify-content: flex-start;
+    height: 80%;
+    width: 37%;
+}
+.pencarian .cari_1{
+    width: 90%;
+    padding: 0px 10px;
+    background-color: transparent;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    height: 100%;
+}
+
+.pencarian button{
+    width: 10%;
+    height: 80%;
+    color: white;
+    background-color: #ff5227;
+    border: none;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    color: white;
+    font-size: 30px;
+}
+.hero{
+    padding: 100px 0px 30px 0px;
+    background-color: white;
+}
+.hero .hero_left{
+    width: 70%;
+}
+.hero .hero_right{
+    width: 29%;
+}
+.hero_right img{
+    height: 150px;
+    width: 100%;
+}
+.hero_left img{
+    width: 100%;
+    height: 300px;
+}
+.hero_right .bawah{
+    padding-top: 2%;
+}
+
+.layanan{
+    background-color: white;
+}
+.layanan .isi{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+}
+.isi .kata{
+    color: black;
+    width: 100%;
+    height: 30%;
+}
+
+.isi .icon{
+    color: #ff5722;
+    font-size: 30px;
+    border-radius: 12px;
+    border: 1px solid #f5f5f5;
+    width: 50px;
+}
+.isi .satu{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 10%;
+}
+.kategori{
+    margin:50px 0px;
+}
+.kategori_isi{
+    width: 100%;
+}
+.kategori .p_1{
+    font-weight: bold;
+    border: 1px solid #f5f5f5;
+}
+.kategori .p_2{
+    border: 1px solid #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kategori .p_2:hover{
+    box-shadow: 3px 3px 5px gray,-3px 0px rgb(197, 194, 194); 
+}
+.kategori .gambar{
+    width: 80%;
+    height: 50%;
+    text-align: center;
+}
+.kategori .gambar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+
+.product-card {
+    border: 1px solid #ddd;
+    background-color: white;
+    overflow: hidden;
+    width: 150px;
+    height: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+.product-card:hover{
+    transform: scale(1.05);
+    border: 2px solid #ff5722;
+}
+
+.product-image img{
+    width: 100%;
+    height: 100%;
+}
+.product-image {
+    width: 100%;
+    height: 60%;
+}
+  
+.product-info {
+    height: 40%;
+    width: 100%;
+}
+
+.info{
+    width: 100%;
+    height: 70%;
+}
+  
+.product-name {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+  
+.product-price {
+    width: 100%;
+    height: 45%;
+    color: #ff5722;
+    font-size: 14px;
+}
+
+
+
+
+
+.produk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 0.2%;
+}
+.rekomendasi{
+    border-bottom: 4px solid #ff5722;
+    line-height: 50px;
+    height: 50px;
+    margin-bottom: 4px;
+    text-align: center;
+    color: #ff5722;
+    background-color: white;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+  
+.show-more-button {
+    background-color: #ff5722;
+    justify-content: center;
+    width: 13%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* .tampil{
+    border: 1px solid black;
+    height: 80%;
+}
+
+.tampil i{
+    border: 1px solid blue;
+    padding: 0px;
+} */
+  
+.show-more-button:hover {
+    background-color: #e64a19;
+}
+
+
+.footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px;
+    border-top: 3px solid #ff5227;
+  }
+  
+  .footer_conten {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ff1e00;
+  }
+
+  .foot-apk{
+    display: flex;
+    gap: 5%;
+  }
+  .foot-apk .logo-apk{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .payment-icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  .payment-icons img {
+    width: 35px;
+    margin-top: 5%;
+    border-radius: 2px;
+    box-shadow: 0px 1px 2px  gray;
+    background-color: white;
+  }
+  
+  .logo-apk img{
+    width: 70px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 2px  gray;
+    background-color: white;
+  }
+  .footer-bottom {
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    margin-top: 20px;
+    border-top: 1px solid #eaeaea;
+  }
+  
+
+
+/* detail produk */
+
+
+.product-detail {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: #ff5722;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0px;
+    border:1px solid #ff5722;
+    border-radius:7px;
+  }
+  
+  .back-button:hover {
+    text-decoration: underline;
+  }
+  
+  .detail-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .detail-price {
+    color: #ff5722;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .detail-description {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .tombol{
+    display: flex;
+    gap:5%;
+    justify-content: center;
+    width: 100%;
+}
+  
+.tombol_1 {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    width: 45%;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.tombol_2{
+    background-color: white;
+    color: #ff5722;
+    width: 45%;
+    border: 1px solid #ff5722;
+    border-radius: 7px;
+    cursor: pointer;
+}
+  
+.tombol_1:hover {
+    background-color: #e64a19;
+}
+  
+  
+  
